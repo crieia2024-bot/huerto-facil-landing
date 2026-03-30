@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huerto Fácil - Raíces en Casa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                green: '#1a4731', // Deep forest green
+                light: '#e7f3ef', // Very light green background
+                accent: '#d4a017', // Gold/Soil color
+                earth: '#5d4037', // Brown
+              }
+            },
+            fontFamily: {
+              sans: ['Helvetica', 'Arial', 'sans-serif'],
+              serif: ['Georgia', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+      }
+      .font-serif-title {
+        font-family: 'Georgia', serif;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+  <script type="module" crossorigin="" src="js/index-main.js"></script>
+</head>
+  <body class="bg-[#fcfbf9] text-gray-800">
+    <div id="root"></div>
+
+</body></html>
